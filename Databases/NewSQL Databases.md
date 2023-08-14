@@ -1,0 +1,1 @@
+Provide the scalability of [[NoSQL databases]] for OLTP workloads while maintaining the ACID guarantees.

@@ -1,0 +1,171 @@
+"Control Structures","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/50/12/33/25501233_m.png"
+"Control structures:  if_1","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/50/15/51/25501551_m.png"
+"Control Structures: if_2","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/50/15/75/25501575_m.png"
+"For Loops","For loops take an iterator variable and assign it successive values from a sequence or vector.
+
+For loops are most commonly used for iterating over the elements of an object (list, vector, etc.)","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/50/19/17/25501917_m.png"
+"Nested for loops","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/50/19/41/25501941_m.png"
+"while loop","While loops begin by testing a condition. If it is true, then they execute the loop body. Once the loopbody is executed, the condition is tested again, and so forth.
+
+  While loops can potentially result in infinite loops if not written properly. Use with care!","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/50/43/02/25504302_m.png"
+"While loop: – More than one condition","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/50/43/08/25504308_m.png"
+"Repeat","Repeat initiates an infinite loop; these are not commonly used in statistical applications but they do have their uses. 
+
+The only way to exit a repeat loop is to call break. 
+
+  The loop in the previous slide is a bit dangerous because there’s no guarantee it will stop. Better toset a hard limit on the number of iterations (e.g. using a for loop) and then report whetherconvergence was achieved or not","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/50/44/16/25504416_m.png"
+"next, return","next is used to skip an iteration of a loop.
+
+
+return signals that a function should exit and return a given value","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/50/44/43/25504443_m.png"
+"Functions_1","Functions are created using the function() directive and are stored as R objects just like anything else. In particular, they are R objects of class “function”.
+
+
+ Functions in R are “first class objects”, which means that they can be treated much like any other R object.   
+
+
+
+  Functions can be passed as arguments to other functions.
+
+Functions can be nested so that you can define a function inside of another function 
+
+The return value of a function is the last expression in the function body to be evaluated. ·"
+"Function Arguments","Functions have named arguments which potentially have default values.
+
+  The formal arguments are the arguments included in the function definition 
+
+
+The formals function returns a list of all the formal arguments of a function
+
+Not every function call in R makes use of all the formal arguments
+
+Function arguments can be missing or might have default values"
+"Argument Matching:1","R functions arguments can be matched positionally or by name. So the following calls to sd are allequivalent.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/52/26/77/25522677_m.png"
+"Argument Matching:2 – Mixing positional and named arguments","You can mix positional matching with matching by name. When an argument is matched by name, itis “taken out” of the argument list and the remaining unnamed arguments are matched in the orderthat they are listed in the function definition.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/52/28/27/25522827_m.png"
+"Usage of Argument matching","Most of the time, named arguments are useful on the command line when you have a longargument list and you want to use the defaults for everything except for an argument near theend of the list.
+
+
+  Named arguments also help if you can remember the name of the argument and not its positionon the argument list (plotting is a good example)."
+"Partial matching in Function Arguments","Function arguments can also be partially matched, which is useful for interactive work. The order of operations when given an argument is
+1. Check for the exact match for a named argument 
+2. Check for a partial match 
+3. Check for a positional match"
+"Defining a function","In addition to not specifying a default value, you can also set an argument value to NULL.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/52/38/65/25523865_m.png"
+"Lazy Evaluation","Arguments to functions are evaluated lazily, so they are evaluated only as needed.
+
+  This function never actually uses the argument b, so calling f(2) will not produce an error becausethe 2 gets positionally matched to a.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/52/40/12/25524012_m.png"
+"Lazy Evaluation example","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/52/40/45/25524045_m.png"
+"The “...” Argument","The ... argument indicate a variable number of arguments that are usually passed on to otherfunctions.... is often used when extending another function and you don’t want to copy the entire argumentlist of the original function.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/52/40/69/25524069_m.png"
+"The “...” Argument","The ... argument is also necessary when the number of arguments passed to the function cannot be known in advance.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/52/40/81/25524081_m.png"
+"Arguments Coming After the “...” Argument","One catch with ... is that any arguments that appear after ... on the argument list must be namedexplicitly and cannot be partially matched.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/52/40/93/25524093_m.png"
+"A Diversion on Binding Values to Symbol.","When you define a new function say, 
+lm <– function (x, y) {x*x}
+
+Which value does R bind to this function, because there is another lm function in R stats package?","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/59/99/78/25599978_m.png"
+"A Diversion on Binding Values to Symbol","When R tries to bind a value to a symbol, it searches through a series of environments to find the appropriate value. When you are working on the command line and need to retrieve the value of an R object, the order is roughly 
+
+The search list can be found by using the search function.
+1. Search the global environment for a symbol name matching the one requested. 
+
+2. Search the namespaces of each of the packages on the search list."
+"Search list","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/60/00/41/25600041_m.png"
+"Binding Values to Symbol","The global environment or the user’s workspace is always the first element of the search list and the base package is always the last. 
+
+  The order of the packages on the search list matters! 
+
+Users can configure which packages get loaded on startup so you cannot assume that there will be a set list of packages available  
+
+  When a user loads a package with library the namespace of that package gets put in position 2 of the search list (by default) and everything else gets shifted down the list. 
+
+Note that R has separate namespaces for functions and non–functions so it’s possible to have anobject named c and a function named c."
+"Scoping Rules","The scoping rules for R are the main feature that make it different from the original S language 
+
+  The scoping rules determine how a value is associated with a free variable in a function.
+
+ R uses lexical scoping or static scoping. A common alternative is dynamic scoping.
+
+Related to the scoping rules is how R uses the search list to bind a value to a symbol
+
+Lexical scoping turns out to be particularly useful for simplifying statistical computations"
+"Lexical Scoping","This function has 2 formal arguments x and y. In the body of the function there is another symbol z. In this case z is called a free variable. The scoping rules of a language determine how values are assigned to free variables. Free variables are not formal arguments and are not local variables (assigned inside the function body).","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/60/01/22/25600122_m.png"
+"Lexical Scoping definition","The values of free variables are searched for in the environment in which the function was defined. 
+
+  What is an environment? 
+
+An environment is a collection of (symbol, value) pairs, i.e. x is a symbol and 3.14 might be its value . 
+
+Every environment has a parent environment; it is possible for an environment to have multiple “children” 
+
+ the only environment without a parent is the empty environment 
+
+
+A function + an environment = a closure or function closure."
+"Lexical Scoping (searching for a value of free variable)","If the value of a symbol is not found in the environment in which a function was defined, then thesearch is continued in the parent environment.
+
+  The search continues down the sequence of parent environments until we hit the top–levelenvironment; this usually the global environment (workspace) or the namespace of a package. 
+
+After the top–level environment, the search continues down the search list until we hit the emptyenvironment. If a value for a given symbol cannot be found once the empty environment isarrived at, then an error is thrown."
+"Lexical scoping – Why it matters","Typically, a function is defined in the global environment, so that the values of free variables are just found in the user’s workspace.
+
+This behavior is logical for most people and is usually the “right thing” to do .
+However, in R you can have functions defined inside other functions.  Languages like C don’t let you do this.
+
+  Now things get interesting — In this case the environment in which a function is defined is the body of another function!"
+"Lexical Scoping– Defining function inside another","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/02/72/25690272_m.png"
+"Exploring a Function Closure","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/02/93/25690293_m.png"
+"Lexical vs dynamic scoping","With lexical scoping the value of y in the function g is looked up in the environment in which the function was defined, in this case, the global environment, so the value of y is 10.
+
+  With dynamic scoping, the value of y is looked up in the environment from which the function was called (sometimes referred to as the calling environment).
+
+In R the calling environment is known as the parent frame.
+So the value of y would be 2.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/03/11/25690311_m.png"
+"Lexical vs dynamic scoping","When a function is defined in the global environment and is subsequently called from the globalenvironment, then the defining environment and the calling environment are the same. This cansometimes give the appearance of dynamic scoping.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/08/06/25690806_m.png"
+"Other Languages that support lexical scoping","Other languages that support lexical scoping.
+
+Scheme
+Perl
+Python
+Common Lisp (all languages converge to Lisp)"
+"Consequences of Lexical Scoping","In R, all objects must be stored in memory
+
+All functions must carry a pointer to their respective defining environments, which could beanywhere
+
+In S–PLUS, free variables are always looked up in the global workspace, so everything can bestored on the disk because the “defining environment” of all functions is the same."
+"Coding Standards for R","1. Always use text files/text editor
+2. Indent your code
+3. Limit the width of your code (80 columns?)
+4. Limit the length of individual functions"
+"Indenting","Indenting improves readability
+
+Fixing line length (80 columns) prevents lots of nesting and very long functions
+
+Suggested: Indents of 4 spaces at minimum; 8 spaces ideal"
+"Dates and Times in R","R has developed a special representation of dates and times 
+
+Dates are represented by the Date class Times are represented by the POSIXct or the POSIXlt class.
+
+ Dates are stored internally as the number of days since 1970–01–01 
+
+Times are stored internally as the number of seconds since 1970–01–01"
+"Dates in R","Dates are represented by the Date class and can be coerced from a character string using theas.Date() function.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/21/29/25692129_m.png"
+"Times in R","POSIXct is just a very large integer under the hood; it uses a useful class when you want to store times in something like a data frame.
+
+POSIXlt is a list underneath and it stores a bunch of other useful information like the day of the week, day of the year, month, day of the month.
+
+  There are a number of generic functions that work on dates and times.
+
+weekdays: give the day of the week
+months: give the month name
+quarters: give the quarter number (“Q1”, “Q2”, etc)"
+"Times in R","Times can be coerced from a character string using the as.POSIXlt or as.POSIXct function.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/21/65/25692165_m.png"
+"POSIXct format.","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/21/86/25692186_m.png"
+"strptime function","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/22/16/25692216_m.png"
+"Operations on Dates and Times","You can use mathematical operations on dates and times. Well, really just + and –. You can docomparisons too (i.e. ==, <=).","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/22/82/25692282_m.png"
+"Operations on Dates and Times – 2","Even keeps track of leap years, leap seconds, daylight savings, and time zones..","https://fce-study.netdna-ssl.com/2/images/upload-flashcards/69/23/00/25692300_m.png"
+"Summary of Dates and times","Dates and times have special classes in R that allow for numerical and statistical calculations.
+
+Dates use the Date class
+
+ Times use the POSIXct and POSIXlt class 
+
+Character strings can be coerced to Date/Time classes using the strptime function or the as.Date, as.POSIXlt, or as.POSIXct."

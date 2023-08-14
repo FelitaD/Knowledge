@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="69FC26A7-7079-46EE-A2F3-1741FBF3F3BD">
+    <Notes>
+        <Note ID="0" FontSize="24.0" Position="685.460938,283.0" Width="203.0">
+            <Appearance>
+                <TextColor>0.298039 0.298039 0.298039</TextColor>
+            </Appearance>
+            <String>Goals &amp; Priorités</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,17</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="2" FontSize="24.0" Position="714.90625,504.0" Width="118.0">
+            <Appearance>
+                <TextColor>0.298039 0.298039 0.298039</TextColor>
+            </Appearance>
+            <String>Roadmap</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="5" FontSize="24.0" Position="731.839844,643.453125" Width="83.0">
+            <Appearance>
+                <TextColor>0.298039 0.298039 0.298039</TextColor>
+            </Appearance>
+            <String>Action</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="791.222656,408.207031" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Declutter</String>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="886.472656,696.730469" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Mindfulness</String>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="862.015625,554.039062" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Agile Scrum</String>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="737.679688,555.0" Width="99.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>Google Calendar</String>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="625.066406,696.5" Width="49.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>ToDoist</String>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="640.359375,554.710938" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>Evernote</String>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="694.414062,408.40625" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>Vision Board</String>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="695.40625,696.964844" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>Be Focused</String>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="787.304688,696.984375" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>Rescue Time</String>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="748.835938,320.0" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>3 jours
+3 semaines
+3 mois
+6 mois
+12 mois</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,40</FormatRange>
+            </Formatting>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>0, 2, 5-15</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="B7F8431E-362D-459A-B26B-C9060D71BC23" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="2F51817A-2201-42F2-A93C-1448648266DC" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="49677F63-306E-4DC4-89EE-397D9BD6D712" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="B83D1218-D8A3-438A-B6C3-8168765E935D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="761F8B7C-C387-4B8C-909F-6013E391313B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="9D5D0857-D817-42C1-B5B4-B98FE777F0A3" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="894E1828-2DCC-4687-A793-4C38621676B4" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

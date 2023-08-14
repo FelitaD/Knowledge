@@ -1,0 +1,1 @@
+Data integration is **the process of bringing data from disparate sources together to provide users with a unified view**. The premise of data integration is to make data more freely available and easier to consume and process by systems and users.

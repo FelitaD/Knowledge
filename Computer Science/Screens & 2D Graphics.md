@@ -1,0 +1,1 @@
+Graphics display more information than CLI.

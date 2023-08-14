@@ -1,0 +1,1 @@
+Data governance means **setting internal standards—data policies—that apply to how data is gathered, stored, processed, and disposed of**. It governs who can access what kinds of data and what kinds of data are under governance.

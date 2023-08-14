@@ -1,0 +1,1 @@
+![[asset-v1_StanfordOnline+SOE.YDB-ADVSQL0001+2T2020+type@asset+block@Authorization.pdf]]

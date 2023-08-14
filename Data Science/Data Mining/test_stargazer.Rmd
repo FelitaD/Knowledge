@@ -1,0 +1,14 @@
+---
+title: "Kaufman, Finding groups in data, p 296"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+```{r}
+install.packages(c('cluster', 'stargazer'))
+library(c('cluster','stargazer'))
+stargazer(animals, type = 'text', title = 'Summary Statistics', out = 'table.txt')
+```
+
+
