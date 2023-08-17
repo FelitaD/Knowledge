@@ -171,7 +171,7 @@ HAVING COUNT(title) > 10;
 
 ### Introduction to joins
 
-[chapter1.pdf](chapter1.pdf)
+[chapter1.pdf](Web%20Scraping/chapter1.pdf)
 
 ### Outer joins and cross joins
 
@@ -229,7 +229,7 @@ WHERE hometeam_id = 8455 OR awayteam_id = 8455;
 
 ### Short and simple subqueries
 
-[chapter2.pdf](chapter2.pdf)
+[chapter2.pdf](Web%20Scraping/chapter2.pdf)
 
 ### Correlated queries, Nested queries, and Common Table Expressions
 

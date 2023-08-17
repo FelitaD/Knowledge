@@ -1,11 +1,3 @@
----
-tags: tech/databases
-aliases:
-publish: true
-sr-due: 2022-10-28
-sr-interval: 15
-sr-ease: 210
----
 
 ACID are properties that define [[Transactions]] in databases. They resolve problems with concurrency and provide resilience to system failures.
 

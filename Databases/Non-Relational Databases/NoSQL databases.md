@@ -19,7 +19,7 @@ sr-ease: 214
 -   NoSQL db are generally focused on speed, scalability and availability
 -   Consistency and / or availability often sacrified ([[CAP theorem]])
 -   Data will eventually be consistent (after replication...)
--   While RDBMS provide ACID, key-value stores like Cassandra provide **BASE** :
+-   While RDBMS provide ACID, key-value stores like Cassandra provide [[BASE]] :
     -   **Basically Available Soft-state Eventual Consistency**
     -   Availability > Consistency
 

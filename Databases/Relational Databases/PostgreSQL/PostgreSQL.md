@@ -1,4 +1,3 @@
-# PostgreSQL
 
 Database type: https://www.notion.so/Relational-Databases-a3f456e217584528bbc53b866ea30297
 

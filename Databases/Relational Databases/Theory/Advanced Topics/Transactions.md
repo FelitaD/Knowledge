@@ -18,7 +18,7 @@ Transactions :
 # Why transactions
 
 To satisfy :
-- [[Concurrency|Concurrent]] database access ( multiple clients)
+- [[Concurrency|Concurrent]] database access (multiple clients)
 - [[Resilience]] to system failures
 
 Structure of DBMS :
